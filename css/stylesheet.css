@@ -112,6 +112,7 @@ body{
 /* ==========================================================================
 Header
    ========================================================================== */
+
 .page-header{
     background-color:#000;
     color:#fff;
@@ -120,11 +121,18 @@ Header
     width: 100%;
     z-index: 10
 }
+.bars{
+float: right;
+}
 
 .page-header h1{
     margin:0;
+    padding:1em 0em 0em 0em;
     font-size:1em;
     text-transform: uppercase;
+}
+h1{
+  font-weight: bolder;
 }
 /* ==========================================================================
 Main Section
@@ -155,7 +163,7 @@ Main Section
   }
 
 h3{
-  border:.065em solid #fff;
+  border:.0625em solid #fff;
   position:absolute;
   top:20.125em;
   left:12.5em;
@@ -170,11 +178,22 @@ color:#fff;
  h3 a:hover{
   color:#000;
   background-color:#fff;
-
+  padding:0.625em;
  }
  /* ==========================================================================
 Second Section
    ========================================================================== */
+.about{
+  border-bottom: 0.125em solid #d1d3d6;
+}
+h4{
+  padding:1em;
+
+}
+p{
+  padding:1em;
+  font-size: 120%
+}
 img{
   width:40%;
   max-width: 100%;
@@ -311,10 +330,20 @@ position: absolute;
 .content p{
   margin:0;
 }
+#projects{
+    border-bottom: 2px solid #d1d3d6;
+    padding:50px;
+}
 
+/* ==========================================================================
+Footer
+   ========================================================================== */
 
-
-
+footer{
+  text-align: center;
+  font-size: 120%
+  padding:3.125em;
+}
 
 
 
