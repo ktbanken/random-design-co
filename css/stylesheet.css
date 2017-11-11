@@ -118,6 +118,7 @@ Header
     padding:1em;
     position: fixed;
     width: 100%;
+    z-index: 10
 }
 
 .page-header h1{
@@ -178,33 +179,138 @@ img{
   width:40%;
   max-width: 100%;
 }
-.top-section1 a:hover{
-  background:none;
-}
+
 .top-section1{
+  background:hsla(360, 100%, 100%, 0.7);
+position: relative;
+}
+
+.overlay1{
+position:relative;
+  display: block;
+  z-index: -10;
+}
+
+.content1{
+position:absolute;
+  top:50%;
+  left:20%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+    font-weight: bolder;
+}
+
+.top-section2{
   background:hsla(360, 100%, 100%, 0.7);
   position:relative;
 }
-.overlay1{
+.overlay2{
   position:relative;
   display: block;
   z-index: -10;
 }
-.content1{
+.content2{
+position: absolute;
+  top:50%;
+  left:20%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+    font-weight: bolder;
+}
+
+.top-section3{
+  background:hsla(360, 100%, 100%, 0.7);
+  position:relative;
+}
+.overlay3{
+  position:relative;
+  display: block;
+  z-index: -10;
+}
+.content3{
   position:absolute;
   top:50%;
   left:20%;
   transform:translate(-50%, -50%);
   text-align:center;
+    font-weight: bolder;
+}
+.top-section4{
+  background:hsla(360, 100%, 100%, 0.7);
+  position:relative;
+}
+.overlay4{
+  position:relative;
+  display: block;
+  z-index: -10;
+}
+.content4{
+  position:absolute;
+  top:50%;
+  left:20%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+    font-weight: bolder;
+}
+
+.top-section5{
+  background:hsla(360, 100%, 100%, 0.7);
+  position:relative;
+}
+.overlay5{
+  position:relative;
+  display: block;
+  z-index: -10;
+}
+.content5{
+  position:absolute;
+  top:50%;
+  left:20%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+    font-weight: bolder;
+}
+
+.top-section6{
+  background:hsla(360, 100%, 100%, 0.7);
+  position:relative;
+}
+.overlay6{
+  position:relative;
+  display: block;
+  z-index: -10;
+}
+.content6{
+  position:absolute;
+  top:50%;
+  left:20%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+    font-weight: bolder;
+}
+
+.top-section7{
+  background:hsla(360, 100%, 100%, 0.7);
+  position:relative;
+}
+.overlay7{
+  position:relative;
+  display: block;
+  z-index: -10;
+}
+.content7{
+  position:absolute;
+  top:50%;
+  left:20%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+    font-weight: bolder;
 }
 
 .content h2
 .content p{
   margin:0;
 }
-
-
-
 
 
 
