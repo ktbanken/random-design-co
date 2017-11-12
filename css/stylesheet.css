@@ -162,24 +162,28 @@ Main Section
     margin:0;
   }
 
-h3{
-  border:.0625em solid #fff;
-  position:absolute;
-  top:20.125em;
-  left:12.5em;
-  padding:0.625em;
-  color:#fff;
-  font-weight: lighter;
-}
-h3 a{
-text-decoration: none;
-color:#fff;
 }
  h3 a:hover{
   color:#000;
   background-color:#fff;
   padding:0.625em;
  }
+
+ .button1 a {
+ 	position: absolute;
+ 	left:8em;
+ 	top:13em;
+ 	color:#fff;
+	text-decoration: none;
+	border: .0625em solid #fff;
+	padding: .3em .50em;
+	font-size: 140%;
+}
+
+.button1 a:hover {
+	background: #fff;
+	color: #000;
+}
  /* ==========================================================================
 Second Section
    ========================================================================== */
@@ -202,6 +206,7 @@ img{
 .top-section1{
   background:hsla(360, 100%, 100%, 0.7);
 position: relative;
+max-width: 100%;
 }
 
 .overlay1{
@@ -333,15 +338,14 @@ position: absolute;
 #projects{
     border-bottom: 2px solid #d1d3d6;
     padding:50px;
-}
-
+ }
 /* ==========================================================================
 Footer
    ========================================================================== */
 
 footer{
-  text-align: center;
-  font-size: 120%
+text-align: center;
+  font-size: 120%;
   padding:3.125em;
 }
 
